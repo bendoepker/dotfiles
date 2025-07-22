@@ -1,0 +1,156 @@
+/* SECTION: GLOBALS */
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+/* SECTION: LEFT MODULES */
+#workspaces {
+    padding-left: 16px;
+}
+
+#workspaces button {
+    color: white;
+    padding-left: 4px;
+    padding-right: 10px;
+    border-bottom: white 1px solid;
+    border-left: white 1px solid;
+    border-top: white 1px solid;
+}
+
+#workspaces button.active {
+    border: white 1px solid;
+    padding-right: 9px;
+}
+
+#workspaces button.active ~ * {
+    padding-left: 6px;
+    padding-right: 9px;
+    border-left: none;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+/* SECTION: CENTER MODULES */
+#window {
+    /* #window refers to the module hyprland/window, not the global 'window' */
+    /* Any styles on the window text go here */
+}
+
+/* SECTION: RIGHT MODULES */
+#idle_inhibitor {
+    padding-left: 5px;
+    padding-right: 13px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+#pulseaudio {
+    padding-left: 5px;
+    padding-right: 10px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+#pulseaudio {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#network {
+    padding-left: 5px;
+    padding-right: 15px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+#power-profiles-daemon {
+    padding-left: 6px;
+    padding-right: 13px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+#power-profiles-daemon.performance {
+    padding-right: 10px;
+    padding-left: 9px;
+}
+
+#power-profiles-daemon.power-saver {
+    padding-right: 12px;
+    padding-left: 7px;
+}
+
+#cpu {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    border-radius: 10px 0 0 10px;
+}
+
+#memory {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+#temperature {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    border-radius: 0 10px 10px 0;
+}
+
+#battery {
+    padding-left: 5px;
+    padding-right: 13px;
+    border-left: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    border-right: white 1px solid;
+    border-radius: 10px 0 0 10px;
+}
+
+#clock {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    border-radius: 0 10px 10px 0;
+}
+
+#tray {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+#custom-power2 {
+    border-left: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 7px;
+    border-radius: 10px 0 0 10px;
+}
+
+#custom-power {
+    margin-left: 0;
+    padding-left: 5px;
+    padding-right: 10px;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    border-radius: 0 10px 10px 0;
+}
+
+/* TODO: mpd */
