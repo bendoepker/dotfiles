@@ -53,11 +53,6 @@ window#waybar {
     border-radius: 10px;
 }
 
-#pulseaudio {
-    padding-left: 5px;
-    padding-right: 10px;
-}
-
 #network {
     padding-left: 5px;
     padding-right: 15px;
